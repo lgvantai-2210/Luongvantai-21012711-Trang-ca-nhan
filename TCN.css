@@ -1,0 +1,166 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+   
+    background-color: rgb(137, 192, 254);
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #5562f5;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #2c55de;
+  }
+
+ 
+main {
+    flex: 1; 
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.left-column {
+    flex: 4; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align:justify;
+}
+.right-column {
+    flex: 2; 
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align:center;
+    height:min-content;
+}
+.right-column a {
+    text-decoration: none;
+    display:block;
+}
+
+.left-column div, .right-column div {
+    background-color: #aae0f5;
+    padding: 10px;
+    flex: 1; 
+}
+.image {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #141060;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .image:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .image img {
+    
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .image:hover img {
+    transform: scale(1.0);
+  }
+
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #192688;   
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #acc3cd;
+}
+.containerall {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #7bc1f8;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+
+  background-color: #041435;
+  color: #ffffff;
+ 
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+
+/* Phần tử con trong footer */
+.footer-menu {
+  margin: 10px 0; /* Thêm một khoảng cách giữa các phần tử p */
+}
+
+.footer-menu {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+
+/* Thiết kế cho danh mục */
+.footer-menu {
+  list-style: none; /* Xóa dấu đầu dòng cho danh sách */
+  padding: 0; /* Xóa padding mặc định của danh sách */
+}
+
+.footer-menu li {
+  display: inline-block; /* Hiển thị các mục danh sách trên cùng một dòng */
+  margin: 0 10px; /* Khoảng cách giữa các mục danh sách */
+}
